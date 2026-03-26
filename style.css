@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0b3d2e;
+  color: #d4af37;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #06281f;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display';
+}
+
+.icons i {
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* SEARCH */
+#searchBar {
+  display: none;
+  text-align: center;
+}
+
+#searchBar input {
+  padding: 10px;
+  width: 50%;
+}
+
+/* DROPDOWN */
+#dropdown {
+  display: none;
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+}
+
+/* PRODUCTS */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #06281f;
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+}
+
+/* BUTTON */
+button {
+  background: gold;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: green;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+/* MOBILE */
+@media(max-width: 768px){
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+}
